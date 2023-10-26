@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Integrating Open-World Shared Control in Immersive Avatars"
+image: /images/powsc_feature.png
+categories: research
+author: "Patrick Naughton"
+authors: "<strong>Patrick Naughton*</strong>, James Seungbum Nam*, Andrew Stratton, Kris Hauser"
+venue: "Submitted to ICRA, 2024"
+arxiv:
+code:
+website:
+---

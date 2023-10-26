@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Structured Action Prediction for Teleoperation in Open Worlds"
+image: /images/sap_feature.png
+categories: research
+author: "Patrick Naughton"
+authors: "<strong>Patrick Naughton</strong>, Kris Hauser"
+venue: "RAL, 2022"
+arxiv: 
+code:
+website:
+paper: https://ieeexplore.ieee.org/document/9691823
+---

@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Immersive Commodity Telepresence with the TRINA Robot Avatar"
+image: /images/system_overview_5.png
+categories: research
+author: "Patrick Naughton"
+authors: "<strong>Patrick Naughton*</strong>, Joao Marcos Correia Marques*, Jing-Chen Peng*, Yifan Zhu*, James Seungbum Nam, Qianxi Kong, Xuanpu Zhang, Aman Penmetcha, Ruifan Ji, Nairen Fu, Vignesh Ravibaskar, Ryan Yan, Neil Malhotra and Kris Hauser"
+venue: "Submitted to International Journal of Social Robotics, Special Issue on Robot Avatars for Telepresence and Social Interaction, 2023"
+arxiv:
+code:
+website: https://motion.cs.illinois.edu/nursing/index.html
+youtube: https://www.youtube.com/watch?v=4NTKMyry2D0
+---
+Related workshop papers:
+* <a href="https://www.researchgate.net/profile/Yifan-Zhu-51/publication/370213992_Pan-Tilt-Roll_Televisualization_With_Adjustable_Baseline_Stereo/links/64516b9c4af7887352518688/Pan-Tilt-Roll-Televisualization-With-Adjustable-Baseline-Stereo.pdf">Pan-Tilt-Roll Televisualization With Adjustable Baseline Stereo</a>, ICRA 2023, 2nd
+Workshop Toward Robot Avatars
+* <a href="https://www.researchgate.net/profile/Yifan-Zhu-51/publication/370214148_Commodity_Telepresence_with_the_AvaTRINA_Nursebot_in_the_ANA_Avatar_XPRIZE_Finals/links/64516b625762c95ac368dcdc/Commodity-Telepresence-with-the-AvaTRINA-Nursebot-in-the-ANA-Avatar-XPRIZE-Finals.pdf">Commodity Telepresence with Team AVATRINA’s Nursebot in the ANA Avatar XPRIZE Finals</a>, ICRA 2023, 2nd
+Workshop Toward Robot Avatars
+* <a href="https://motion.cs.illinois.edu/papers/RSS2022Workshop-Marques-TelepresenceXPRIZE.pdf">Commodity Telepresence with the AvaTRINA Nursebot in the ANA Avatar XPRIZE Semifinals</a>, RSS
+2022, Toward Robot Avatars: Perspectives on the ANA Avatar XPRIZE Competition
