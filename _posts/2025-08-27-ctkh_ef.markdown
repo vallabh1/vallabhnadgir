@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Memory-Efficient Real Time Many-Class 3D Metric-Semantic Mapping"
-image: /images/powsc_feature.png
+image: /images/bs3d_campus.gif
 categories: research
 author: "Vallabh Nadgir"
 authors: "<strong>Vallabh Nadgir*</strong>, Joao Marcos Correia Marques*, Kris Hauser"
