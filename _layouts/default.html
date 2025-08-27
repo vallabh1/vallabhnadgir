@@ -51,7 +51,10 @@
           </tr>
         </table>
         
+        <hr/>
+        <h2>Publications</h2>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -67,6 +70,9 @@
               <br>
               <em>{{post.venue}}</em>
               <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -97,6 +103,7 @@
           {% endfor %}
         </table>
         <br>
+
       
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
