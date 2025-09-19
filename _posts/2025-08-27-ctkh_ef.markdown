@@ -5,7 +5,7 @@ image: /images/bs3d_campus.gif
 categories: research
 author: "Vallabh Nadgir"
 authors: "<strong>Vallabh Nadgir*</strong>, Joao Marcos Correia Marques*, Kris Hauser"
-venue: "IROS, 2025"
+venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 arxiv:
 code: https://github.com/uiuc-iml/memory-efficient-3d-semantic-mapping
 website:
