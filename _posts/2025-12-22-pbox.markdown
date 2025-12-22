@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Perception Box"
+image: /images/pbox.gif
+categories: project
+# author: "Vallabh Nadgir"
+# authors: "<strong>Vallabh Nadgir*</strong>, Joao Marcos Correia Marques*, Kris Hauser"
+# venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+arxiv:
+code: https://github.com/uiuc-iml/Robotic-Perception-Box
+website:
+# paper: https://motion.cs.illinois.edu/papers/IROS2025-Nadgir-CompressedSemanticMapping.pdf
+---

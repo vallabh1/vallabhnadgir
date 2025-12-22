@@ -6,7 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-E00L9PT3V9');
@@ -20,26 +20,32 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
                 Vallabh Nadgir
               </h1>
               <p>I'm a senior majoring in Computer Engineering
-                at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a>, advised by <a href="https://kkhauser.web.illinois.edu/">Professor Kris Hauser</a>.
-                My research interests include state estimation, optimization, and world representations for robotic perception.
+                at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a>, advised by <a
+                  href="https://kkhauser.web.illinois.edu/">Professor Kris Hauser</a>.
+                My research interests include state estimation, optimization, and world representations for robotic
+                perception.
               </p>
               <p style="text-align:center">
-                <a href="mailto:vnadgir2@illinois.edu">Email</a> &nbsp;/&nbsp;                <a href="pdfs/resume_08-25.pdf">Resume</a> &nbsp;/&nbsp;
+                <a href="mailto:vnadgir2@illinois.edu">Email</a> &nbsp;/&nbsp;
+                <!-- <a href="pdfs/resume_08-25.pdf">Resume</a> &nbsp;/&nbsp; -->
                 <a href="https://github.com/vallabh1">GitHub</a> &nbsp;/&nbsp;
                 <!-- <a href="https://scholar.google.com/citations?user=fEvPguYAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp; -->
                 <a href="https://www.linkedin.com/in/vallabhnadgir/"> LinkedIn </a>
@@ -50,17 +56,19 @@
             </td>
           </tr>
         </table>
-        
-        <hr/>
-        <h2>Papers</h2>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        <hr />
+        <h2>Publications</h2>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
-              <img src="{{ site.baseurl }}/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{ site.baseurl }}/tn{{post.image}}" alt="project image"
+                style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{% if post.paper %}<a href="{{post.paper}}">{{post.title}}</a>{% else %}{{post.title}}{% endif %}</h3>
@@ -104,14 +112,55 @@
         </table>
         <br>
 
-      
+        <hr />
+        <h2>Projects</h2>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'project' %}
+          <tr>
+            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
+              <img src="{{ site.baseurl }}/tn{{post.image}}" alt="project image"
+                style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{% if post.link %}<a href="{{post.link}}">{{post.title}}</a>{% else %}{{post.title}}{% endif %}</h3>
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              {% if post.link %}
+              <a href="{{post.link}}">link</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.demo %}
+              <a href="{{post.demo}}">demo</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+
+
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's
+                  website</a>
               </p>
             </td>
           </tr>
@@ -122,4 +171,3 @@
 </body>
 
 </html>
-
