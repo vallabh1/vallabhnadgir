@@ -11,3 +11,4 @@ code: https://github.com/uiuc-iml/Robotic-Perception-Box
 website:
 # paper: https://motion.cs.illinois.edu/papers/IROS2025-Nadgir-CompressedSemanticMapping.pdf
 ---
+A framework for semantic mapping and optimized map streaming (via XML-RPC) for Jetson and Ubuntu devices.
