@@ -144,7 +144,7 @@
               {% assign has_link = true %}
               {% endif %}
               {% if post.code %}
-              {% if has_link %} | {% endif %}<a href="{{post.code}}">code</a>
+              {% if has_link %} {% endif %}<a href="{{post.code}}">code</a>
               {% assign has_link = true %}
               {% endif %}
               {% if post.video %}
